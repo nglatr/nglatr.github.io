@@ -26,9 +26,8 @@ features = [
     "navigation.top",
     "content.code.copy"
 ]
-copyright = "2026 nglatr"
 
 [project.extra]
 extra_css = ["assets/extra.css"]
-generator = false
 extra_javascript = ["assets/cursor-glow.js"]
+generator = false
