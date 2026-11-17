@@ -1,3 +1,5 @@
+console.log("Skrypt poświaty działa!");
+
 document.addEventListener("DOMContentLoaded", () => {
   if (!window.matchMedia("(pointer: fine)").matches) return;
 
