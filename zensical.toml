@@ -8,11 +8,19 @@ nav = [
     { "Start" = "index.md" },
     { "Projekty" = "projects.md" },
     { "Writeups" = [
-        { "HTB: Example" = "writeups/htb-example.md" }
+        { "HTB: Example" = "writeups/thm-example.md" }
     ]},
     { "Notatki" = [
         { "Nmap Cheatsheet" = "notes/nmap-cheatsheet.md" }
     ]}
+]
+
+extra_javascript = [
+  "javascripts/extra.js",
+]
+
+extra_css = [
+  "stylesheets/extra.css",
 ]
 
 [project.theme]
@@ -28,6 +36,4 @@ features = [
 ]
 
 [project.extra]
-extra_css = ["assets/extra.css"]
-extra_javascript = ["assets/cursor-glow.js"]
 generator = false
