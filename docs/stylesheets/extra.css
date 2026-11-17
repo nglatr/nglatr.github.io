@@ -1,4 +1,4 @@
-/* Ukrywamy domyślnie na małych ekranach / mobile */
+/* --- Styl poświaty kursora --- */
 @media (pointer: fine) {
   .cursor-glow {
     position: fixed;
@@ -6,13 +6,12 @@
     left: 0;
     width: 350px;
     height: 350px;
-    /* Twój kolorowy gradient – możesz zmienić kolory (np. róż, pomarańcz, żółć) */
     background: radial-gradient(circle, rgba(255, 0, 128, 0.45) 0%, rgba(255, 128, 0, 0.25) 40%, rgba(255, 255, 0, 0) 70%);
     border-radius: 50%;
-    pointer-events: none; /* Kluczowe: pozwala klikać w linki pod poświatą */
-    transform: translate(-50%, -50%); /* Centruje poświatę dokładnie pod kursorem */
-    z-index: 999; /* Nad treścią, ale nie zasłania interakcji */
-    filter: blur(40px); /* Mocne rozmycie nadające efekt "chmurki" */
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    z-index: 99999;
+    filter: blur(40px);
     transition: width 0.3s ease, height 0.3s ease;
   }
 }
