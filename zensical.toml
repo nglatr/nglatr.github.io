@@ -26,6 +26,7 @@ features = [
     "navigation.top",
     "content.code.copy"
 ]
+copyright = "2026 nglatr"
 
 [project.extra]
 extra_css = ["assets/extra.css"]
