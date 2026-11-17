@@ -1,0 +1,31 @@
+[project]
+site_name = "Jan Kowalski — Security"
+site_url = "https://<twoj-nick>.github.io"
+site_author = "Jan Kowalski"
+site_description = "Notatki, writeupy CTF oraz projekty z obszaru Cybersecurity."
+
+nav = [
+    { "Start" = "index.md" },
+    { "Projekty" = "projects.md" },
+    { "Writeups" = [
+        { "HTB: Example" = "writeups/htb-example.md" }
+    ]},
+    { "Notatki" = [
+        { "Nmap Cheatsheet" = "notes/nmap-cheatsheet.md" }
+    ]}
+]
+
+[project.theme]
+font = { text = "Inter", code = "JetBrains Mono" }
+palette = [
+    { scheme = "default", primary = "black", accent = "green", toggle = { icon = "material/brightness-7", name = "Tryb ciemny" } },
+    { scheme = "slate", primary = "black", accent = "green", toggle = { icon = "material/brightness-4", name = "Tryb jasny" } }
+]
+features = [
+    "navigation.instant",
+    "navigation.top",
+    "content.code.copy"
+]
+
+[project.extra]
+extra_css = ["assets/extra.css"]
