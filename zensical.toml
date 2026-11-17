@@ -1,6 +1,6 @@
 [project]
 site_name = "Jan Kowalski — Security"
-site_url = "https://<twoj-nick>.github.io"
+site_url = "https://nglatr.github.io"
 site_author = "Jan Kowalski"
 site_description = "Notatki, writeupy CTF oraz projekty z obszaru Cybersecurity."
 
